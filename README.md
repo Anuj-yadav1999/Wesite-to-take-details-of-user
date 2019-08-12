@@ -1,11 +1,14 @@
 # Wesite-to-take-details-of-user
 Here is my code of the website
 
-<!DOCTYPE html>
-<html>
+
+
+    // Starting with the html 
+    <!DOCTYPE html>
+    <html>
 	<head>
 		<title>Form</title>
-		<style>
+		<style>         // Here is the format or style or dimentions
 			.resume{   
 			margin-right: 2%;
 			}
@@ -22,12 +25,14 @@ Here is my code of the website
 			}
 		</style>
 
-	</head>
+    </head>
+        //  Body i.e. content of the website starts from here
 	<body style="background-color:#2ecc71">
-		<div class="resume">
-		<div class="resume_class">
+		<div class="resume">       // Here the style from the head is used
+		<div class="resume_class">  // Here again the other style used
 			<h1><center>CONTACT INFORMATION</center></h1>
 			<hr><br>
+			// Form starts from here and write all the attributes you want to take from user
 			<form action="Result.html" method="post"><center>
 				First Name:<input type="text" name="fname" placeholder="For example John"><br><br>
 				Last Name:<input type="text" name="lname" placeholder="For example Smith"><br>
@@ -40,7 +45,7 @@ Here is my code of the website
 					<input type="radio" name="Age">Female
 					<input type="radio" name="Age">Others<br><br>
 			</form><br>
-			<input type="Submit" name="submit" value="Submit">
-			<input type="reset" name="reset" value="Reset"></center>
+			<input type="Submit" name="submit" value="Submit">    // Here the submit button 
+			<input type="reset" name="reset" value="Reset"></center>   // The reset button here
 	</body>
-</html>
+    </html>
